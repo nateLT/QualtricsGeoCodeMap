@@ -1,0 +1,28 @@
+{
+  "name": "QualtricsGeoCodeMap",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nateLT/QualtricsGeoCodeMap"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "nate",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "ol": "^7.5.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

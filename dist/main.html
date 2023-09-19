@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>GeoCode Map</title>
+    <style></style>
+  </head>
+  <body>
+    <div id="root" class="center"></div>
+    <script src="bundle.js"></script>
+    <script>
+      MapModule.addDivs("root");
+      MapModule.createMap("map");
+      var element = document.getElementById("enterbtn");
+      element.addEventListener("click", function () {
+        var results = MapModule.geocodeZoomTo("1525 N 600 E St, Lehi, UT 84043");
+      });
+    </script>
+  </body>
+</html>
